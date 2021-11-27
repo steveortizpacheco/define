@@ -30,6 +30,56 @@ Copyright © All rights Reserved
 
 /* nuevos estilos
 ----------------------*/
+.compradores {
+    color: #333 !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    opacity: 0.4 !important;
+    padding: 0 20px !important;
+    line-height: 30px!important;
+    border-right:1px solid #333 !important;
+
+
+
+}
+.compradores-activo {
+  
+    opacity: 0.8 !important;
+   
+
+
+
+}
+.negocio-activo {
+  
+    opacity: 0.9 !important;
+   
+
+}
+.negocio {
+    color: #333 !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    opacity: 0.4 !important;
+    padding: 0 20px !important;
+    line-height: 30px!important;
+
+
+}
+
+.negocio:hover{
+    opacity: 1 !important;
+   
+    
+
+}
+.compradores:hover{
+    opacity: 1 !important;
+   
+    
+
+}
+
 .margen-right{
     padding-left: 20px;
 }
@@ -222,14 +272,14 @@ p.lead {
 ----------------------*/
 
 .nav-menu {
-    padding: 1rem 0;
+    padding: 0 0;
     transition: all 0.3s ease;
 }
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background: rgba(232, 232, 232, 0.70);
-    border-bottom: 2px solid #eb0646;
+    background: rgba(232, 232, 232, 0.90);
+    border-bottom: 2px solid #96fee7;
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(4px);
 }
@@ -288,6 +338,15 @@ header {
 
 .bg-img-01 {
     background-image: url('../images/slider-01.jpg');
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat ;
+    
+}
+.bg-img-02 {
+    background-image: url('../images/slider-02.jpg');
     overflow: hidden;
     width: 100%;
     background-size: cover;
